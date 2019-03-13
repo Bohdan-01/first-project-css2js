@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Play:400,700|Righteous');
+@import url('https://fonts.googleapis.com/css?family=Russo+One&subset=cyrillic');
+:root {
+    font-family: 'Play', sans-serif;
+   
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+    border: 3px #152e5c solid;
+    
+}
+
+body input {
+	border-color: grey;
+	border-radius: 5px;
+	background-color: #d9ebff; 
+}    
+
+
+.header {
+	background-color: #77929e;
+
+}
+.logo {
+	display: flex;
+	justify-content: space-around;
+}
+
+.logo-img {
+	padding-top: 10px;
+	width: 200px;
+	height: 50px;
+}
+.logo-text {
+	font-size: 1.25rem;
+	margin-top: 10px;
+}
+
+.clock {
+	font-size: 40px;
+	font-family: 'Share Tech Mono', monospace;
+    color: #bd2130;
+    color: #ffc107;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+}
+header div p {
+background-color: gold;
+}
+
+header .mob-phone {
+	display: flex;
+	justify-content: center;
+	font-size: 1.5rem;
+	margin: 0;
+	font-family: 'Russo One', sans-serif;
+	color: #840705;
+}
+
+
+main {
+	background-color: #77929e;
+
+}
+
+.carousel-inner {
+	margin-top: -4px;
+}
+
+main .parts form {
+	display: flex;
+	justify-content: space-around;
+}
+
+main .parts h2 {
+	font-size: 1.5rem;
+	color: #3b1d8f;
+	margin-left: 20px;
+}
+
+main .services .service {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+main .services h2 {
+	font-size: 1.5rem;
+	color: #3b1d8f;
+	margin-left: 20px;
+}
+
+.date-button form p {
+	margin-top: 16px;
+}
+
+.button {
+ 	background-color: #3b1d8f;
+	color: white;
+	font-size: 16px;
+	padding: 5px 10px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.date-button input.button{
+	float: right;
+}
+
+ main .about h2 {
+ 	font-size: 1.5rem;
+	color: #3b1d8f;
+	margin-left: 20px;
+}
+
+ main .about .about-us {
+ 	display: flex;
+ 	justify-content: space-around;
+}
+
+ main .about .about-us figure {
+ 	margin-left: 0;
+ 	margin-right: 0;
+}
+ main .about .about-us img {
+ 	width: 100%;
+ 	height: auto; 
+}
+
+main .about .about-us figcaption {
+		text-align: center;
+}
+ 	
+footer {
+	background-color: #77929e;
+} 	
+footer .footer {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+footer .footer div img {
+	width: 42px;
+	height: 42px;
+	
+}
+
+
+footer .footer div div {
+	text-align: center;
+} 
+
+.foot img {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	}
+
+.foot span {
+	display: block;
+	text-align: center;
+}
+
